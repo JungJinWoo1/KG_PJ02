@@ -39,7 +39,7 @@
 	<c:set var="totalPage" value="${dao.getTotalPage() }" />
 	
 	<c:set var="pc" value="${dao.pagingNum(param.start) }" />
-	
+
 	<c:set var="list" value="${dao.list(pc.startPage, pc.endPage) }" />
 	<form id="fo" action="board_searchList.jsp" method="get">
 		<table border="1">

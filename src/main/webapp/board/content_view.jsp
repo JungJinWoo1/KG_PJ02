@@ -52,7 +52,7 @@
 							<input type="button" onclick="location.href='board1_replyWrite.jsp?bnum=${dto.bnum}'" value="댓글">
 					</c:when>
 					<c:otherwise>
-				 		<input type="button" onclick="location.href='login.jsp'" value="로그인">
+				 		<input type="button" onclick="location.href='../Login/Member.jsp'" value="로그인">
 				 	</c:otherwise>
 				</c:choose>
 				</td>

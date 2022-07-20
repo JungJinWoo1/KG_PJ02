@@ -172,10 +172,11 @@ public class Board1DAO {
 	
 	//id를 통해서 이름값 가져오기
 	public Board1DTO getName(String id) {
-		String sql = "select id, name from PJ_member where id=" + id;
+		String sql = "select id, name from PJ_member where id= ?";
 		Board1DTO dto = new Board1DTO();
 		try {
 			ps = con.prepareStatement(sql);
+			ps.setString(1, id);
 			rs = ps.executeQuery();
 			if(rs.next()) {
 				dto.setId(rs.getInt("id"));
