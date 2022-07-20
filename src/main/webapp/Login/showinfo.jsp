@@ -19,7 +19,7 @@ header { padding-bottom: 100px; }
 <body>
 <header>
 <form action="Main.jsp">
-<a href="Main.jsp"><img alt="img" src="3.png" width="120" height="120"></a>
+<a href="../Main.jsp"><img alt="img" src="../resources/images/pet_foot.png" width="120" height="120"></a>
 </form>
 </header>
    <%

@@ -24,8 +24,8 @@ img { position: absolute; left: 100px; top: 0; z-index: 1; cursor: pointer; padd
 </head>
 <body>
 <header>
-<form action="Main.jsp">
-<a href="Main.jsp"><img alt="img" src="3.png" width="120" height="120"></a>
+<form action="../Main.jsp">
+<a href="../Main.jsp"><img alt="img" src="../resources/images/pet_foot.png" width="120" height="120"></a>
 </form>
 </header>
 <section>
@@ -65,7 +65,7 @@ function check(){
 	}
 </script>
 <footer>
-<%@ include file="footer.jsp" %>
+<%@ include file="../footer.jsp" %>
 </footer>
 </body>
 </html>

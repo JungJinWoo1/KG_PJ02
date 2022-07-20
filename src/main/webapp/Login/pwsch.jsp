@@ -62,7 +62,7 @@ function pwd_search() {
 }
 </script>
 <footer>
-<%@ include file="footer.jsp" %>
+<%@ include file="../footer.jsp" %>
 </footer>
 </body>
 </html>

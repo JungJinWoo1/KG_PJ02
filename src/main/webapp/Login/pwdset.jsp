@@ -15,8 +15,7 @@
    String id = request.getParameter("id");   
    MemberDAO dao = new MemberDAO();
    
-   dao.pwdupdate(pwd,id);
-   %>
+   dao.pwdupdate(pwd,id);%>
    <script type="text/javascript">
    alert("비밀번호 변경 완료");
    location.href='Member.jsp';

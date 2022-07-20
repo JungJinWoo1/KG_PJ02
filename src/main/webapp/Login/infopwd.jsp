@@ -36,7 +36,7 @@ style="border: none; border-bottom: 1px solid black;">
 </form>
 </div>
 <footer>
-<%@ include file="footer.jsp" %>
+<%@ include file="../footer.jsp" %>
 </footer>
 </body>
 </html>

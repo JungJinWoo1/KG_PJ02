@@ -30,7 +30,7 @@
  </div>
    <div class="found-login">
    <button type="button" onclick="member.jsp">로그인</button><br>
-   <button type="button" onclick="pwdsch.jsp">비밀번호 찾기</button>
+   <a href="pwsch.jsp"><button type="button" onclick="pwdsch.jsp">비밀번호 찾기</button></a>
  </div>
 </div>
 <%	   

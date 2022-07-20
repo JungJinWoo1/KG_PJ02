@@ -20,7 +20,7 @@
     	 %>
     	 <script type="text/javascript">
     	     alert('환영합니다');
-    	     location.href='Main.jsp'
+    	     location.href='../Main.jsp'
     	 </script>
     	 <%}
      else if(result == 0){

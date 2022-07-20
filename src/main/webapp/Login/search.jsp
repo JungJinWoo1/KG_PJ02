@@ -23,7 +23,7 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); }
 <div id="wrapper">
 <header>
 <form action="Main.jsp">
-<a href="Main.jsp"><img alt="img" src="3.png" width="120" height="120"></a>
+<a href="../Main.jsp"><img alt="img" src="../resources/images/pet_foot.png" width="120" height="120"></a>
 <h3>My pet</h3>
 </form>
 </header>
@@ -35,7 +35,7 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); }
 </form>
 </div>
 <footer>
-<%@ include file="footer.jsp" %>
+<%@ include file="../footer.jsp" %>
 </footer>
 </body>
 </html>

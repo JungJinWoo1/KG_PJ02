@@ -11,7 +11,7 @@
 		* { margin: 0; }
 		.hdv { background-color:beige; margin: auto; }
 		.title { text-shadow: 10px 10px 15px; font-size: 50pt; text-align: center; }
-		img { position: absolute; left: 100px; top: 0; z-index: 1; }
+		#petimg { position: absolute; left: 100px; top: 0; z-index: 1; }
 		h1 a {text-decoration: none; color: #785D12;}
 		nav { margin-top: 30px;  background-color: #785D12; }
 		nav ul { display: flex; list-style: none; }
@@ -23,25 +23,26 @@
 </head>
 <body>
 	<div class="hdv">
-	<h1 class="title" ><a href="Main.jsp">my pet</a></h1>
-	<img src="3.png" width="120" height="120">
+	<h1 class="title" ><a href="/KG_PJ02/Main.jsp">my pet</a></h1>
+	<img src="/KG_PJ02/resources/images/pet_foot.png" width="120" height="120" id="petimg">
 	<nav>
 		<ul>
 			<li><a href="#">공지사항</a></li>
-			<li><a href="boardList.jsp">우리의 이야기</a></li>
+			<li><a href="/KG_PJ02/board/boardList.jsp">우리의 이야기</a></li>
 			<li><a href="#">shop</a></li>
 			<c:choose>
 			 	<c:when test="${login != null }">
-			 		<li><a href="infopwd.jsp">나의 정보</a></li>
-			 		<li><a href="logout.jsp">로그아웃</a></li>
+			 		<li><a href="/KG_PJ02/Login/infopwd.jsp">나의 정보</a></li>
+			 		<li><a href="/KG_PJ02/Login/logout.jsp">로그아웃</a></li>
 			 	</c:when>
 			 	<c:otherwise>
-			 		<li><a href="create.jsp">회원가입</a></li>
-			 		<li><a href="Member.jsp">로그인</a></li>
+			 		<li><a href="/KG_PJ02/Login/create.jsp">회원가입</a></li>
+			 		<li><a href="/KG_PJ02/Login/Member.jsp">로그인</a></li>
 			 	</c:otherwise>
 			 </c:choose>
 		</ul>
 	</nav>
 	</div>
+	<br>
 </body>
 </html>
